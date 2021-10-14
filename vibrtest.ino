@@ -21,6 +21,9 @@ void setup(){
 //now it only prints the measurement of the first vibration pin, can easily print all if needed by copy-pasting this section
 void loop(){
   long measurement1 =TP_init1();
+  long measurement2 =TP_init2();
+  long measurement3 =TP_init3();
+  long measurement4 =TP_init4();
   delay(50);
  // Serial.print("measurement = ");
   
