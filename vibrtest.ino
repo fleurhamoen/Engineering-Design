@@ -27,8 +27,8 @@ void loop(){
   delay(50);
  // Serial.print("measurement = ");
   
-  //for this if-statement, I now made it so that it only prints the first measurement if all measurements are above 10000. Needs to be tested.
-  if (measurement1 > 10000 && measurement2 > 10000 && measurement3 > 10000 && measurement4 > 10000){
+  //for this if-statement, I now made it so that it only prints the first measurement if at least one measurement is above 10000. Needs to be tested.
+  if (measurement1 > 10000 || measurement2 > 10000 || measurement3 > 10000 || measurement4 > 10000){
     Serial.println(measurement1);
   }
 }
