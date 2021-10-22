@@ -1,9 +1,9 @@
 //I just put them in random pins now, but this is how you could define multiple 
 int LED_Pin = 13;
-int vibr_Pin1 = 3;
-int vibr_Pin2 = 4;
-int vibr_Pin3 = 5;
-int vibr_Pin4 = 6;
+int vibr_Pin1 = 4;
+int vibr_Pin2 = 5;
+int vibr_Pin3 = 6;
+int vibr_Pin4 = 7;
 
 
 void setup(){
